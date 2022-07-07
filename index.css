@@ -19,7 +19,7 @@
 .hero-section {
     background-color: var(--main-background-color);
     color: var(--main-font-color);
-    padding: 0 10rem;
+    padding: 1rem 13rem;
 }
 
 header {
@@ -32,7 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem 0;
+    padding: 8rem 0;
     gap: 1rem;
     flex-wrap: wrap;
 }
@@ -60,6 +60,7 @@ h2 {
 }
 
 h3 {
+    font-size: 36px;
     text-align: center;
 }
 
@@ -87,7 +88,7 @@ button {
 
 .information-section {
     text-align: center;
-    padding: 1rem 10rem;
+    padding: 2rem 12rem;
 }
 
 .information-section img {
@@ -98,10 +99,10 @@ button {
 }
 
 .information-section ul {
-    padding: 2rem 0;
+    padding: 2rem 10rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .information-section p {
@@ -111,31 +112,44 @@ button {
 
 .quote-section {
     background-color: var(--second-background-color);
-    padding: 2rem 10rem;
-}
-
-.quote-section p {
+    padding: 3rem 20rem;
     color: var(--dark-font-color);
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
 }
 
+.quote-section-author {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+
 .call-to-action-section {
     background-color: var(--details-color);
     color: var(--secondary-font-color);
-    padding: 10px 100px;
-    margin: 2rem 10rem;
+    padding: 3rem 12rem;
+    margin: 5rem 12rem;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .call-to-action-section button {
     border: 2px solid white;
 }
 
+.call-to-action-main-text {
+    color: var(--main-font-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 footer {
     background-color: var(--main-background-color);
     color: var(--secondary-font-color);
-    padding: 20px 100px;
+    padding: 2rem 10rem;
     text-align: center;
 }
